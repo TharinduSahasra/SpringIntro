@@ -1,23 +1,26 @@
-import java.net.URL;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class MainApp extends Application {
-public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+    public static void main(String[] args) {
         launch(args);
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        URL resource = getClass().getResource("/view/login.fxml");// fxml file resource
-        Parent root = FXMLLoader.load(resource);// load the resource
-        primaryStage.setScene(new Scene(root));
+    public void start(Stage primaryStage) throws IOException {
+        Parent root = FXMLLoader.load(this.getClass().getResource("/view/login.fxml"));
+        Scene mainScene = new Scene(root);
+        primaryStage.setScene(mainScene);
+        primaryStage.setTitle("JDBC POS");
+        primaryStage.centerOnScreen();
         primaryStage.show();
-        primaryStage.setTitle("This is lbm");
-    }   
+
+
+    }
 }

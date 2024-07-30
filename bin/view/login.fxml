@@ -1,175 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.shape.*?>
 <?import com.jfoenix.controls.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
 
-<AnchorPane prefHeight="835.0" prefWidth="1349.0" style="-fx-background-color: #F1F1F1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeFormController">
-   <children>
-      <VBox layoutY="36.0" prefHeight="810.0" prefWidth="108.0">
-         <effect>
-            <InnerShadow height="36.55" radius="21.6625" width="52.1" />
-         </effect>
-         <opaqueInsets>
-            <Insets right="7.0" />
-         </opaqueInsets>
-         <children>
-            <Button mnemonicParsing="false" prefHeight="92.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="58.0" fitWidth="86.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/icons8-checklist-96.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="95.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="66.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/icons8-add-user-group-man-man-96.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="64.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/icons8-find-user-male-96.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="66.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/623443_book_256x256.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="93.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="65.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/unnamed.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="95.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="65.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/literature_exchange-512.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="93.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="56.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/reports%20(1).png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="92.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="59.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/icons8-settings-96.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="96.0" prefWidth="108.0" textAlignment="RIGHT" textFill="#dada5d">
-               <graphic>
-                  <ImageView fitHeight="52.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../asset/icons8-info-48.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-         </children>
-      </VBox>
-      <AnchorPane prefHeight="38.0" prefWidth="1350.0" style="-fx-background-color: #4D090A;">
-         <children>
-            <Label layoutX="109.0" layoutY="9.0" text="Libray Managemant System of ABC" textFill="#b53e3e" />
-            <Button cancelButton="true" layoutX="1278.0" layoutY="4.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" style="-fx-background-color: #C20037;" text="close" textFill="#f5f5f5" />
-         </children></AnchorPane>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#487c2a" height="118.0" layoutX="190.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" width="311.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b22f33" height="118.0" layoutX="528.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" width="311.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#244e75" height="118.0" layoutX="865.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" width="311.0" />
-      <Label layoutX="226.0" layoutY="105.0" text="Issued Books : " textFill="#f1f1f1">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="557.0" layoutY="105.0" text="Returend Books : " textFill="#f1f1f1">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="895.0" layoutY="105.0" text="Delayed Returns :" textFill="#f1f1f1">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="376.0" layoutY="105.0" text="0" textFill="#f1f1f1">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="733.0" layoutY="105.0" text="0" textFill="#f1f1f1">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="1074.0" layoutY="105.0" text="0" textFill="#f1f1f1">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <AnchorPane layoutX="107.0" layoutY="225.0" prefHeight="620.0" prefWidth="1237.0" style="-fx-background-color: #F1F1F1;">
-         <effect>
-            <Lighting diffuseConstant="1.75" specularConstant="1.3" surfaceScale="1.38">
-               <bumpInput>
-                  <Shadow />
-               </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
-            </Lighting>
-         </effect>
-         <children>
-            <Label layoutX="71.0" layoutY="58.0" text="Total Recordes Till Date : ">
-               <font>
-                  <Font name="Arial Unicode MS" size="18.0" />
-               </font>
-            </Label>
-            <Label layoutX="684.0" layoutY="61.0" text="Member Summary :">
-               <font>
-                  <Font name="Arial Unicode MS" size="18.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
-   </children>
-   <opaqueInsets>
-      <Insets />
-   </opaqueInsets>
-   <effect>
-      <Blend mode="SRC_ATOP" />
-   </effect>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #F1F1F1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddNewMemberController">
+    <children>
+        <Label layoutX="20.0" layoutY="20.0" text="Add New Member" textFill="#4d090a" style="-fx-font-size: 24px;">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+
+        <JFXTextField fx:id="memberIdField" layoutX="150.0" layoutY="70.0" promptText="Member ID" />
+        <Label layoutX="20.0" layoutY="75.0" text="Member ID:" />
+
+        <JFXComboBox fx:id="memberCategoryCombo" layoutX="150.0" layoutY="110.0" promptText="Select Category">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Student" />
+                    <String fx:value="Faculty" />
+                    <String fx:value="Staff" />
+                </FXCollections>
+            </items>
+        </JFXComboBox>
+        <Label layoutX="20.0" layoutY="115.0" text="Member Category:" />
+
+        <JFXTextField fx:id="memberNameField" layoutX="150.0" layoutY="150.0" promptText="Member Name" />
+        <Label layoutX="20.0" layoutY="155.0" text="Member Name:" />
+
+        <JFXTextField fx:id="memberNicField" layoutX="150.0" layoutY="190.0" promptText="NIC Number" />
+        <Label layoutX="20.0" layoutY="195.0" text="Member NIC No:" />
+
+        <JFXTextArea fx:id="memberAddressArea" layoutX="150.0" layoutY="230.0" prefHeight="60.0" prefWidth="200.0" promptText="Address" />
+        <Label layoutX="20.0" layoutY="235.0" text="Member Address:" />
+
+        <Label layoutX="20.0" layoutY="310.0" text="Gender:" />
+        <JFXRadioButton fx:id="genderMale" layoutX="150.0" layoutY="310.0" text="Male" />
+        <JFXRadioButton fx:id="genderFemale" layoutX="220.0" layoutY="310.0" text="Female" />
+        <JFXRadioButton fx:id="genderOther" layoutX="290.0" layoutY="310.0" text="Other" />
+        <ToggleGroup fx:id="genderGroup">
+            <toggles>
+                <JFXRadioButton fx:reference="genderMale" />
+                <JFXRadioButton fx:reference="genderFemale" />
+                <JFXRadioButton fx:reference="genderOther" />
+            </toggles>
+        </ToggleGroup>
+
+        <JFXTextField fx:id="contactNumberField" layoutX="150.0" layoutY="350.0" promptText="Contact Number" />
+        <Label layoutX="20.0" layoutY="355.0" text="Contact Number:" />
+
+        <JFXTextField fx:id="emailAddressField" layoutX="150.0" layoutY="390.0" promptText="Email Address" />
+        <Label layoutX="20.0" layoutY="395.0" text="Email Address:" />
+
+        <JFXDatePicker fx:id="membershipStartDatePicker" layoutX="150.0" layoutY="430.0" promptText="Start Date" />
+        <Label layoutX="20.0" layoutY="435.0" text="Membership Start Date:" />
+
+        <JFXDatePicker fx:id="membershipExpiryDatePicker" layoutX="150.0" layoutY="470.0" promptText="Expiry Date" />
+        <Label layoutX="20.0" layoutY="475.0" text="Membership Expiry Date:" />
+
+        <JFXButton layoutX="150.0" layoutY="520.0" text="Save" style="-fx-background-color: #4fbf55;" />
+        <JFXButton layoutX="250.0" layoutY="520.0" text="Cancel" style="-fx-background-color: #ce6846;" />
+    </children>
 </AnchorPane>
